@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParallelExecution]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="Test.Home">
+        <methods>
+          <include name="Hometest"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- Test.Home -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [ParallelExecution] -->

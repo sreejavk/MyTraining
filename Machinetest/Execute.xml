@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParallelExecution">
+  <test  thread-count="5" name="ChromeTest">
+    <classes>
+   
+      <class name="Test.Logintest"/>
+     <class name="Test.Home"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
